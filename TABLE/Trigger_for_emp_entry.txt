@@ -1,0 +1,9 @@
+create or replace trigger ere1
+before insert on emp_entry for each row
+declare
+primary varchar2(5);
+begin
+select ee1.nextval into primary from dual;
+:new.empid:=primary;
+end;
+/

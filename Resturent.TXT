@@ -1,0 +1,5 @@
+The cab file for your application has been built as 'c:\Users\Sanjeev\Desktop\New Folder\Resturent Setup\Resturent Management System.CAB'.
+
+There is also a batch file in the support directory (c:\Users\Sanjeev\Desktop\New Folder\Resturent Setup\Support\Resturent Management System.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.
+
+You have included mdac_typ.exe in your installation package.  If you will be installing this package on a Windows 95/98 system, it will require DCOM98 to install properly.

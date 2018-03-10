@@ -1,0 +1,15 @@
+create table sal_ent
+(saldate date , empid varchar2(5) references emp_entry(empid), name varchar2(20), ba number(5), ta number(5), da number(5), hra number(5), oa number(5), pf number(5),
+total number(6))
+/
+
+
+
+
+
+
+
+
+
+
+

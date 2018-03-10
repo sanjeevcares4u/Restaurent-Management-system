@@ -1,0 +1,10 @@
+On Error Resume Next
+MsgBox " Data overflow"
+
+
+
+On Error GoTo hell
+
+
+hell:
+   If Err.Number = -2147467259 Then MsgBox " Data overflow", vbExclamation, "Ok"

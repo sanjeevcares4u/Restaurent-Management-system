@@ -1,0 +1,4 @@
+create table user_id
+(empid varchar2(20) references emp_entry(empid), userid varchar2(20), password varchar2(20),
+userlbl varchar2(15), secques varchar2(40), answer varchar2(20))
+/

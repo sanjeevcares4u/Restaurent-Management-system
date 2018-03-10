@@ -1,0 +1,3 @@
+create table table_entry
+(table_no number(3) primary key, status varchar2(10), Cusid varchar2(10))
+/

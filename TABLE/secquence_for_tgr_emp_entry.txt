@@ -1,0 +1,2 @@
+create sequence ee1 start with 1 maxvalue 1000 increment by 1
+/

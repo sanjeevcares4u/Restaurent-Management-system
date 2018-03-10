@@ -1,0 +1,3 @@
+create table ordeer
+(order_no number(8) primary key, cusid varchar2(5), cname varchar2(20), wtrid varchar2(5), tblno number(3),tot number(5), TX NUMBER(6),FTOT NUMBER(7))
+/

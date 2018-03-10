@@ -1,0 +1,3 @@
+create table attendence
+(attendencedt date, empid varchar2(5) references emp_entry(empid), name varchar2(20), status varchar2(10), come varchar2(15), out varchar2(15), remark varchar2(40))
+/

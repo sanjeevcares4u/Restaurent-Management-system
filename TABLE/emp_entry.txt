@@ -1,0 +1,5 @@
+create table emp_entry
+(empid varchar2(5) primary key, name varchar2(20), fname varchar2(20), address varchar2(40),
+dob date, phno number(12), gender varchar2(7), doj date, quali varchar2(18),
+depar varchar2(10), emptype varchar2(15), salary number(6))
+/

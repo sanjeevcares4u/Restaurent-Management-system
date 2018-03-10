@@ -1,0 +1,9 @@
+create or replace trigger cet1
+before insert on customer_ent for each row
+declare
+primary varchar2(7);
+begin
+select 'A' || to_char (ce1.nextval) into primary from dual;
+:new.cusid:=primary;
+end;
+/

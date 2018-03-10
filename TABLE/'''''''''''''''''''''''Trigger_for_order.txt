@@ -1,0 +1,9 @@
+create or replace trigger order1
+before insert on ordeer for each row
+declare
+primary varchar2(7);
+begin
+select odr1.nextval into primary from dual;
+:new.order_no:=primary;
+end;
+/

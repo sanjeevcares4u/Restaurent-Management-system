@@ -1,0 +1,5 @@
+select * from sal_ent where empid like '%" & Text1.Text & "%' And TO_CHAR(SALDATE,'MON')= '" + Combo1.Text + "' AND TO_CHAR(SALDATE,'YYYY')= '" + Combo2.Text + "'
+
+DataEnvironment1.Command4 Text2.Text
+
+select * from sal_ent where empid=?

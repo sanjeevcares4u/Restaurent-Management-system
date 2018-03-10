@@ -1,0 +1,13 @@
+create or replace trigger tet1
+before insert on table_entry for each row
+declare
+primary number(3);
+begin
+select te1.nextval into primary from dual;
+:new.table_no:=primary;
+end;
+/
+
+
+
+

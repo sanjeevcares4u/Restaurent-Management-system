@@ -1,0 +1,3 @@
+create table sal_set
+(ta number(5), da number(25), hra number(5), oa number(5), pf number(5))
+/

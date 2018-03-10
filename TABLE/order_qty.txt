@@ -1,0 +1,11 @@
+create table order_qty
+(order_no number(8) references ordeer(order_no),qty number(2), description varchar2(30), price number(4), total number(5))
+/
+
+
+
+
+
+
+
+

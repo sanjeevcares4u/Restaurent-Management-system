@@ -1,0 +1,3 @@
+create table order_tot
+(order_no number(8) references ordeer(order_no),tot number(5), TX NUMBER(6),FTOT NUMBER(7))
+/

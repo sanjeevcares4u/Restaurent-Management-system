@@ -1,0 +1,54 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Resturent Management System.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Resturent Management System.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"MSDBRPTR.DLL"
+"MSSTDFMT.DLL"
+"msado21.tlb"
+"MSRDC20.OCX"
+"MSRDO20.DLL"
+"RDOCURS.DLL"
+"tabctl32.ocx"
+"msflxgrd.ocx"
+"comdlg32.ocx"
+"MSCOMCTL.OCX"
+"mscomct2.ocx"
+"msinet.ocx"
+"richtx32.ocx"
+"RICHED32.DLL"
+"mschrt20.ocx"
+"mswinsck.ocx"
+"MSMAPI32.OCX"
+"mci32.ocx"
+"picclp32.ocx"
+"SYSINFO.OCX"
+"MSCOMM32.OCX"
+"msmask32.ocx"
+"MSDATGRD.OCX"
+"MSDATLST.OCX"
+"COMCT332.OCX"
+"MSADODC.OCX"
+"mshflxgd.ocx"
+"MSBIND.DLL"
+"MSDERUN.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
